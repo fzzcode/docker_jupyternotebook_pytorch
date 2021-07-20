@@ -1,5 +1,5 @@
 docker run \
-	-it -d \
+	-it \
 	--name pytorch_nogpu \
 	-p 8888:8888 --ipc=host \
 	-v $PWD/config/sources.list:/etc/apt/sources.list \
